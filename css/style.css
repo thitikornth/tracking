@@ -1,0 +1,121 @@
+body {
+  font-family: "Kanit", sans-serif;
+  /* background-color: #63007d; */
+  background-color: #b621fe;
+  /* background-image: linear-gradient(180deg, #63007d 20%, #af62d5 100%); */
+  background-image: linear-gradient(180deg, #b621fe 20%, #1fd1f9 100%);
+  background-size: cover;
+}
+.body-admin-login{
+    font-family: "Kanit", sans-serif;
+    background-color: rgb(223, 47, 47);
+    background-image: linear-gradient(180deg, rgb(223, 47, 47) 20%,rgb(226, 88, 88) 100%);
+    background-size: cover;
+}
+.text-head {
+    
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 50px 0;
+}
+
+.w3l-login-form {
+  background: #ffffff;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 3em;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.group {
+  display: flex;
+  padding: 15px 5px;
+  background-color: #ffffff;
+}
+.group-admin-login {
+  display: flex;
+  padding: 15px 5px;
+  background-color: #ffffff;
+}
+
+.group i {
+  color: #8a05cc;
+  font-size: 20px;
+  padding: 0 10px;
+  margin: 9px;
+}
+.group-admin-login i{
+  color: red;
+  font-size: 20px;
+  padding: 0 10px;
+  margin: 9px;
+}
+.w3l-form-group {
+  margin: 20px 0;
+}
+
+.w3l-form-group .text-label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  background: transparent;
+  color: #000;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+}
+
+.button-login {
+  background: #8a05cc;
+  color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  padding: 12px 60px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 60px;
+  margin-top: 2em;
+}
+
+.button-login:hover {
+  background-color: #410051;
+  transition-duration: 1s;
+}
+.button-admin-login {
+  background: rgb(175, 10, 10);
+  color: #ffffff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  padding: 12px 60px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 60px;
+  margin-top: 2em;
+}
+
+.button-admin-login:hover {
+  background-color:rgb(128, 8, 8);
+  transition-duration: 1s;
+}

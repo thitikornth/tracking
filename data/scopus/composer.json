@@ -1,0 +1,5 @@
+{
+    "require": {
+        "hbll-collection-development/scopus-api": "^1.0"
+    }
+}
